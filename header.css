@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#Header {
+    width: 100%;
+    background-color: white;
+}
+
+#inner_header {
+    display: table;
+    width: 1500px;
+    margin: auto;
+    text-align: center;
+    height: 60px;
+    background-color: white;
+    border-bottom: solid 1px black;
+}
+
+#Header ul {
+    display: flex;
+    float: right;
+    margin: 35px;
+}
+
+#Header li a {
+    font-size: 20px;
+    font-family: "Helvetica";
+    color: black;
+    margin: 20px;
+}
+
+#Header #active {
+    border-bottom: solid 2px black;
+}
+
+#Header li a:hover {
+    border-bottom: solid 2px black;
+}
