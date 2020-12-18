@@ -4,13 +4,9 @@ body {
 
 #main {
     display: flex;
-    justify-content: stretch;
+    justify-content: left;
     flex-wrap: wrap;
-    position: absolute;
-    top: 250px;
-    left: 50%;
-    transform: translateX(-40%);
-    width: 1500px;
+    margin-left: 120px;
 }
 
 .all {
@@ -73,6 +69,15 @@ body {
     color: white;
 }
 
+@media screen and (max-width: 800px) {
+    #main {
+        margin-left: 0;
+    }
+    #chooseType h1 {
+        margin: 0;
+    }
+}
+
 
 /* Language Color */
 
@@ -102,4 +107,8 @@ body {
 
 .Photon {
     background-color: #2B8FD8;
+}
+
+.SocketIo {
+    background-color: black;
 }
