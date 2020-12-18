@@ -1,17 +1,24 @@
 body {
-    background-color: #fafaf6;
+    overflow-y: scroll;
 }
 
 #main {
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
     flex-wrap: wrap;
     position: absolute;
     top: 250px;
+    left: 50%;
+    transform: translateX(-40%);
+    width: 1500px;
+}
+
+.all {
+    transition: all 0.5s;
 }
 
 #main div:not(.competence) {
-    margin: 70px;
+    margin: 75px 30px 75px 30px;
     background-color: white;
     box-shadow: 1px 1px 3px black;
 }
@@ -19,6 +26,13 @@ body {
 #main div img {
     width: 350px;
     height: 250px;
+}
+
+.active {
+    transition: all 0.5s;
+    border-radius: 15px;
+    background-color: #4EB2E1;
+    color: white;
 }
 
 .competence {
@@ -41,9 +55,10 @@ body {
 
 #chooseType {
     display: flex;
+    cursor: pointer;
+    padding-top: 70px;
     justify-content: center;
-    position: relative;
-    top: 70px;
+    width: 100%;
 }
 
 #chooseType h1 {
