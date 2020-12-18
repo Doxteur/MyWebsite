@@ -38,15 +38,13 @@ body {
 .competence {
     display: flex;
     text-align: center;
-    margin: 10px 87px 10px 87px;
 }
 
 #main h3 {
-    margin: auto;
-    width: 50px;
+    margin: 15px;
     padding: 5px;
+    width: 100%;
     font-size: 18px;
-    background-color: #4eb2e1;
     color: white;
     border-radius: 35px;
     font-family: Arial;
@@ -73,4 +71,35 @@ body {
     background-color: #4EB2E1;
     border-radius: 15px;
     color: white;
+}
+
+
+/* Language Color */
+
+.HTML {
+    background-color: #DD4B25;
+}
+
+.CSS {
+    background-color: #1578BA;
+}
+
+.JS {
+    background-color: #E6C72F;
+}
+
+.Csharp {
+    background-color: #9668D9;
+}
+
+.Unity {
+    background-color: #212B35;
+}
+
+.Jquery {
+    background-color: #55BAA2;
+}
+
+.Photon {
+    background-color: #2B8FD8;
 }
