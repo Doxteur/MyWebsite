@@ -65,4 +65,8 @@ h2 {
 
 @media screen and (min-width: 1280px) {
     /* Rédigez vos propriétés CSS ici */
+    #right_content img {
+        transform: scale(0.8);
+        margin-right: -50px;
+    }
 }
